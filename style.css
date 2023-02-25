@@ -66,3 +66,21 @@ body{
 #yisus{
   border-radius: 20px;
 }
+@media screen and (max-width: 768px){
+  .contenedorMain{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(7, auto);
+  }
+  .contenedorMain header{
+    grid-column: 1/-1;
+  }
+  .contenedorMain .subtitulo {
+    grid-column: 1/-1;
+  }
+  .contenedorMain main{
+    grid-column: 1/-1;
+  }
+  .contenedorMain .imgYisus{
+    grid-column: 1/-1;
+  }
+}
