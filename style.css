@@ -1,0 +1,57 @@
+body{
+  font-size: 16px;
+  background-color: grey;
+  font-family: sans-serif;
+}
+
+.contenedorMain{
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, auto);
+  /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center; */
+}
+.contenedorMain header{
+  background: #12203e;
+  padding: 20px 0;
+  color: white;
+  font-size: 2em;
+  grid-column: 1/-1;
+  text-align: center;
+  border-radius: 20px;
+  /* grid-column-start: 1;
+  grid-column-end: 5; */
+}
+.contenedorMain .subtitulo {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  grid-column: 2/3;
+} 
+.contenedorMain main{
+  grid-column: 2/3;
+}
+.valoresApi{
+  display: flex;
+  width: 300px;
+  padding-bottom: 10px;
+}
+.calculator{
+  display: flex;
+  background-color: rgb(102, 102, 116);
+  border-radius: 20px;
+  padding: 15px;
+}
+#input{
+  display: block; 
+  margin: 0 10px; 
+  background-color: rgb(149, 149, 161);
+}
+#currency-field-result-number{
+  display: block;
+}
