@@ -55,3 +55,14 @@ body{
 #currency-field-result-number{
   display: block;
 }
+.contenedorMain .imgYisus{
+  grid-column: 2/3;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    
+}
+#yisus{
+  border-radius: 20px;
+}
