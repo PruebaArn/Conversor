@@ -66,7 +66,7 @@ body{
 #yisus{
   border-radius: 20px;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 330px){
   .contenedorMain{
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(7, auto);
