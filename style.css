@@ -446,7 +446,7 @@ nav a:hover,
     font-size: 12px;
   }
   header{
-    width: var(--anchoMobile);
+    width: 800px;
   }
     nav a,
     .headerExtremos1 a,
